@@ -19,3 +19,17 @@ $(document).ready(function() {
     const style = $("#food").val();
   });
 });
+
+$(document).ready(function() {
+  $("#formBorn").submit(function() {
+    event.preventDefault();
+    const dob = $("#born").val();
+  });
+});
+
+$(document).ready(function() {
+  $("#formBorn").submit(function() {
+    event.preventDefault();
+    const favoriteColor = $("#color").val();
+  });
+});
