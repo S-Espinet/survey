@@ -28,7 +28,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $("#formBorn").submit(function() {
+  $("#formColor").submit(function() {
     event.preventDefault();
     const favoriteColor = $("#color").val();
   });
